@@ -1,0 +1,38 @@
+{
+  "template": "@icedesign/ice-react-material-template",
+  "type": "react",
+  "name": "my-material",
+  "description": "This is a ice material project",
+  "author": "",
+  "blocks": [
+    {
+      "languageType": "js",
+      "homepage": "https://unpkg.com/example-block-anyang@0.1.0/build/index.html",
+      "description": "intro block",
+      "name": "ExampleBlock",
+      "title": "demo block",
+      "category": "Information",
+      "categories": [
+        "Information"
+      ],
+      "screenshot": "https://unpkg.com/example-block-anyang@0.1.0/screenshot.png",
+      "screenshots": [
+        "https://unpkg.com/example-block-anyang@0.1.0/screenshot.png"
+      ],
+      "source": {
+        "type": "npm",
+        "npm": "example-block-anyang",
+        "version": "0.1.0",
+        "registry": "https://registry.npmjs.org"
+      },
+      "dependencies": {
+        "prop-types": "^15.5.8",
+        "puppeteer": "^19.6.2"
+      },
+      "publishTime": "2023-01-29T07:34:22.167Z",
+      "updateTime": "2023-01-29T07:34:22.573Z"
+    }
+  ],
+  "components": [],
+  "scaffolds": []
+}

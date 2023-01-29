@@ -1,5 +1,5 @@
 {
-  "name": "example-block",
+  "name": "example-block-anyang",
   "version": "0.1.0",
   "description": "intro block",
   "files": [
@@ -15,11 +15,11 @@
   "scripts": {
     "start": "build-scripts start",
     "build": "build-scripts build",
-    "screenshot": "screenshot -l -s mountNode",
-    "prepublishOnly": "npm run build && npm run screenshot"
+    "screenshot": "screenshot -l -s mountNode"
   },
   "dependencies": {
-    "prop-types": "^15.5.8"
+    "prop-types": "^15.5.8",
+    "puppeteer": "^19.6.2"
   },
   "devDependencies": {
     "@ice/screenshot": "^0.1.1",
